@@ -44,19 +44,30 @@ BASE_URL=https://api.groq.com/openai/v1
 MODEL_NAME=llama-3.1-8b-instant
 ```
 
-## 📁 Files and Structure
+## Files and Structure
 
 ├── IEMS_490-0_Assignment1.ipynb ← Main Jupyter Notebook
+
 ├── gsm8k_subset.csv ← Subset of GSM8K used for evaluation
+
 ├── results_baseline.csv
+
 ├── results_manual_improved.csv
+
 ├── results_few_shot.csv
+
 ├── results_self_consistency.csv
+
 ├── results_automated_best_full.csv
+
 ├── summary_accuracies.csv
+
 ├── preview_*.csv ← 10-row samples for inspection
+
 ├── requirements.txt
+
 ├── .env.example
+
 └── README.md
 
 ## Dataset — GSM8K
