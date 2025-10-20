@@ -1,0 +1,134 @@
+idx,question,gt_answer,correct,raw_output
+1,Mimi picked up 2 dozen seashells on the beach.  Kyle found twice as many shells as Mimi and put them in his pocket. Leigh grabbed one-third of the shells that Kyle found.  How many seashells did Leigh have?,16,1,"To solve this problem, let's break it down into smaller parts.
+
+Mimi picked up 2 dozen seashells. Since 1 dozen is 12, Mimi has 2 * 12 = 24 seashells.
+
+Kyle found twice as many shells as Mimi, so Kyle has 2 * 24 = 48 seashells.
+
+Leigh grabbed one-third of the shells that Kyle found. To find one-third of 48, we can divide 48 by 3: 48 / 3 = 16.
+
+#### 16"
+2,Frankie's parents let him have many pets. He has six more snakes than he has cats. He has one less parrot than cats. Six of his pets have four legs. He has 2 dogs. How many pets does he have in total?,19,1,"Let's break down the problem into smaller parts. 
+
+Frankie has six more snakes than cats, let's call the number of cats 'c'. Then the number of snakes is 'c + 6'. 
+
+He has one less parrot than cats, so the number of parrots is 'c - 1'.
+
+Six of his pets have four legs, which means these six pets are dogs and cats. Since he has 2 dogs, the number of cats is 6 - 2 = 4.
+
+Now we know the number of cats is 4, so the number of snakes is 4 + 6 = 10 and the number of parrots is 4 - 1 = 3.
+
+The total number of pets is the sum of cats, snakes, parrots, and dogs: 4 + 10 + 3 + 2 = 19.
+
+#### 19"
+3,"Olaf collects colorful toy cars. At first, his collection consisted of 150 cars. His family, knowing his hobby, decided to give him some toy cars. Grandpa gave Olaf twice as many toy cars as the uncle. Dad gave Olaf 10 toy cars, 5 less than Mum. Auntie gave Olaf 6 toy cars, 1 more than the uncle. How many toy cars does Olaf have in total, after receiving all these gifts?",196,1,"Let's break down the problem into smaller parts. 
+
+Olaf initially has 150 toy cars. 
+
+Grandpa gave Olaf twice as many toy cars as the uncle. Let's call the number of toy cars the uncle gave 'x'. Then, Grandpa gave 2x toy cars. 
+
+Dad gave Olaf 10 toy cars, 5 less than Mum. Let's call the number of toy cars Mum gave 'y'. Then, Dad gave 10 toy cars and Mum gave y toy cars. 
+
+Auntie gave Olaf 6 toy cars, 1 more than the uncle. Since the uncle gave 'x' toy cars, Auntie gave 6 toy cars.
+
+We can now set up equations based on the information given:
+
+- The uncle gave 'x' toy cars.
+- Grandpa gave 2x toy cars.
+- Dad gave 10 toy cars.
+- Mum gave y toy cars.
+- Auntie gave 6 toy cars.
+
+Since Dad gave 5 less than Mum, we can write an equation: y - 5 = 10. Solving for y, we get y = 15.
+
+Since Auntie gave 1 more than the uncle, we can write an equation: x + 1 = 6. Solving for x, we get x = 5.
+
+Now we know the number of toy cars the uncle, auntie, dad, and mum gave. We can add these to the initial number of toy cars Olaf had:
+
+150 (initial toy cars) + 5 (toy cars from uncle) + 10 (toy cars from dad) + 15 (toy cars from mum) + 6 (toy cars from auntie) + 2x (toy cars from grandpa) = 150 + 5 + 10 + 15 + 6 + 2(5)
+
+Simplifying the equation, we get: 150 + 5 + 10 + 15 + 6 + 10 = 196
+
+#### 196"
+4,"Emma's bank account has $100 in it. Each day of the week, she spends $8. At the end of the week, she goes to the bank and asks for as many $5 bills as her account can give her. She leaves the rest in the account. How many dollars remain in the account?",4,1,"To solve this problem, let's break it down into smaller parts. 
+
+Emma starts with $100 in her account. Each day of the week, she spends $8. Since there are 7 days in a week, she spends a total of 7 * $8 = $56.
+
+Now, let's subtract the amount she spent from her initial balance: $100 - $56 = $44.
+
+At the end of the week, Emma wants to get as many $5 bills as her account can give her. To find out how many $5 bills she can get, we'll divide her remaining balance by $5: $44 ÷ $5 = 8 with a remainder of $4.
+
+Since Emma leaves the remainder in her account, she will have $4 left.
+
+#### 4"
+5,"Ezekiel hikes as a hobby. This past summer, he did a challenging three-day hike across 50 kilometers of wilderness. The first day, he covered 10 kilometers of steep mountainside. The second day was flatter and he was able to cover half the full hike distance. How many kilometers did he have to hike on the third day to finish the hike?",15,1,"To solve this problem, let's break it down into smaller parts. 
+
+First, we know that Ezekiel has to hike a total of 50 kilometers. On the first day, he covered 10 kilometers. 
+
+For the second day, he covered half of the full hike distance, which is 50 / 2 = 25 kilometers.
+
+So, the total distance he covered in the first two days is 10 + 25 = 35 kilometers.
+
+To find out how many kilometers he has to hike on the third day, we subtract the distance he covered in the first two days from the total distance:
+
+50 - 35 = 15
+
+#### 15"
+6,"James decides to build a tin house by collecting 500 tins in a week. On the first day, he collects 50 tins. On the second day, he manages to collect 3 times that number. On the third day, he collects 50 tins fewer than the number he collected on the second day. If he collects an equal number of tins on the remaining days of the week, what's the number of tins he collected each day for the rest of the week?",50,1,"Let's break down the problem into smaller parts.
+
+On the first day, James collects 50 tins.
+On the second day, he collects 3 times that number, which is 3 * 50 = 150 tins.
+On the third day, he collects 50 tins fewer than the number he collected on the second day, which is 150 - 50 = 100 tins.
+
+James collected a total of 50 + 150 + 100 = 300 tins in the first three days.
+
+Since he needs to collect 500 tins in a week, he needs to collect 500 - 300 = 200 tins in the remaining 4 days.
+
+To find the number of tins he collected each day for the rest of the week, we divide the remaining tins by the number of days: 200 / 4 = 50.
+
+#### 50"
+7,"Don throws 3 darts.  One is a bullseye worth 50 points.  One completely missed the target, so received no points. The third was worth half the points of the bullseye.  What is the final score from these 3 throws?",75,1,"To solve this problem, let's break it down into smaller parts. 
+
+Don throws 3 darts. 
+- One is a bullseye worth 50 points.
+- One completely missed the target, so received no points.
+- The third was worth half the points of the bullseye.
+
+We know the value of the first dart (50 points), the second dart (0 points), and we need to find the value of the third dart. Since the third dart is worth half the points of the bullseye, we can calculate its value as 50 / 2 = 25 points.
+
+Now, let's add up the points from all three darts: 50 (bullseye) + 0 (missed) + 25 (third dart) = 75 points.
+
+#### 75"
+8,"TreQuan is throwing rocks in the river and he notices that the bigger the rock, the wider the splash. Pebbles make a splash that is a 1/4 meter wide. Rocks make a splash that is 1/2 a meter wide, and boulders create a splash that is 2 meters wide. If he tosses 6 pebbles, 3 rocks, and 2 boulders, what is the total width of the splashes he makes?",7,1,"To solve this problem, let's break it down into smaller parts. 
+
+First, we need to find the total width of the splashes made by pebbles, rocks, and boulders. 
+
+Pebbles make a splash that is 1/4 meter wide. Since TreQuan tosses 6 pebbles, the total width of the splashes made by pebbles is 6 * (1/4) = 1.5 meters.
+
+Rocks make a splash that is 1/2 meter wide. Since TreQuan tosses 3 rocks, the total width of the splashes made by rocks is 3 * (1/2) = 1.5 meters.
+
+Boulders create a splash that is 2 meters wide. Since TreQuan tosses 2 boulders, the total width of the splashes made by boulders is 2 * 2 = 4 meters.
+
+Now, let's add the total width of the splashes made by pebbles, rocks, and boulders. 
+Total width = 1.5 + 1.5 + 4 = 7 meters.
+
+#### 7"
+9,"Pauly is making omelets for his family. There are three dozen eggs, and he plans to use them all. Each omelet requires 4 eggs. Including himself, there are 3 people. How many omelets does each person get?",3,1,"To solve this problem, let's break it down into smaller parts. 
+
+There are three dozen eggs, which is 3 * 12 = 36 eggs. 
+Each omelet requires 4 eggs. 
+To find the total number of omelets, we divide the total number of eggs by the number of eggs per omelet: 36 / 4 = 9 omelets. 
+Since there are 3 people, we divide the total number of omelets by the number of people: 9 / 3 = 3 omelets per person.
+
+#### 3"
+10,"Thomas made 4 stacks of wooden blocks. The first stack was 7 blocks tall. The second stack was 3 blocks taller than the first. The third stack was 6 blocks shorter than the second stack, and the fourth stack was 10 blocks taller than the third stack. If the fifth stack has twice as many blocks as the second stack, how many blocks did Thomas use in all?",55,1,"Let's break down the problem into smaller parts. 
+
+The first stack is 7 blocks tall. 
+The second stack is 3 blocks taller than the first, so it's 7 + 3 = 10 blocks tall.
+The third stack is 6 blocks shorter than the second stack, so it's 10 - 6 = 4 blocks tall.
+The fourth stack is 10 blocks taller than the third stack, so it's 4 + 10 = 14 blocks tall.
+The fifth stack has twice as many blocks as the second stack, so it's 2 * 10 = 20 blocks tall.
+
+Now, let's add up the blocks in all the stacks: 7 + 10 + 4 + 14 + 20 = 55.
+
+#### 55"

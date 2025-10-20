@@ -1,0 +1,83 @@
+idx,question,gt_answer,correct,raw_output
+1,Mimi picked up 2 dozen seashells on the beach.  Kyle found twice as many shells as Mimi and put them in his pocket. Leigh grabbed one-third of the shells that Kyle found.  How many seashells did Leigh have?,16,1,"To find the number of seashells Leigh had, we need to follow the steps:
+
+1. Mimi picked up 2 dozen seashells. Since 1 dozen is 12, 2 dozen is 2 * 12 = 24 seashells.
+2. Kyle found twice as many shells as Mimi, which is 2 * 24 = 48 seashells.
+3. Leigh grabbed one-third of the shells that Kyle found, which is 48 / 3 = 16 seashells.
+
+#### 16"
+2,Frankie's parents let him have many pets. He has six more snakes than he has cats. He has one less parrot than cats. Six of his pets have four legs. He has 2 dogs. How many pets does he have in total?,19,0,"Let's break down the problem step by step.
+
+1. Frankie has 2 dogs. Since dogs have 4 legs, we can add 2 to the total number of pets with 4 legs: 6 + 2 = 8
+
+2. Frankie has 6 snakes and 1 parrot less than cats. Let's call the number of cats 'x'. Then, the number of snakes is x + 6 and the number of parrots is x - 1.
+
+3. Since Frankie has 8 pets with 4 legs, the remaining pets (snakes and parrots) do not have 4 legs. The total number of pets is the sum of pets with 4 legs and pets without 4 legs. We know that Frankie has 2 dogs, so the total number of pets without 4 legs is 2 (dogs) + (x + 6) (snakes) + (x - 1) (parrots).
+
+4. The total number of pets is the sum of pets with 4 legs and pets without 4 legs: 8 (pets with 4 legs) + 2 (dogs) + (x + 6) (snakes) + (x - 1) (parrots).
+
+5. Simplify the expression: 8 + 2 + x + 6 + x - 1 = 15 + 2x
+
+6. We know that Frankie has 6 snakes and 1 parrot less than cats. Since Frankie has x cats, he has x + 6 snakes and x - 1 parrots. We also know that Frankie has 2 dogs. The total number of pets is the sum of all these pets: x (cats) + (x + 6) (snakes) + (x - 1) (parrots) + 2 (dogs).
+
+7. Simplify the expression: x + (x + 6) + (x - 1) + 2 = 3x + 6
+
+8. Since the total number of pets is the sum of pets with 4 legs and pets without 4 legs, we can set up the equation: 3x + 6 = 15 + 2x
+
+9. Subtract 2x from both sides of the equation: x + 6 = 15
+
+10. Subtract 6 from both sides of the equation: x = 9
+
+11. Now that we know the number of cats (x = "
+3,"Olaf collects colorful toy cars. At first, his collection consisted of 150 cars. His family, knowing his hobby, decided to give him some toy cars. Grandpa gave Olaf twice as many toy cars as the uncle. Dad gave Olaf 10 toy cars, 5 less than Mum. Auntie gave Olaf 6 toy cars, 1 more than the uncle. How many toy cars does Olaf have in total, after receiving all these gifts?",196,1,"Let's break down the problem step by step.
+
+1. Olaf's uncle gave him some toy cars, but we don't know the exact number yet. Let's call the number of toy cars given by the uncle 'x'. 
+
+2. Auntie gave Olaf 6 toy cars, which is 1 more than the uncle. So, the number of toy cars given by the uncle is 6 - 1 = 5.
+
+3. Now we know that the uncle gave Olaf 5 toy cars. 
+
+4. Grandpa gave Olaf twice as many toy cars as the uncle. So, Grandpa gave Olaf 2 * 5 = 10 toy cars.
+
+5. Dad gave Olaf 10 toy cars, which is 5 less than Mum. So, Mum gave Olaf 10 + 5 = 15 toy cars.
+
+6. Now we know the number of toy cars given by each family member:
+   - Uncle: 5
+   - Auntie: 6
+   - Grandpa: 10
+   - Dad: 10
+   - Mum: 15
+
+7. Let's add up the number of toy cars given by each family member: 5 + 6 + 10 + 10 + 15 = 46.
+
+8. Olaf initially had 150 toy cars. Now he received 46 more toy cars from his family. So, the total number of toy cars Olaf has now is 150 + 46 = 196.
+
+#### 196"
+4,"Emma's bank account has $100 in it. Each day of the week, she spends $8. At the end of the week, she goes to the bank and asks for as many $5 bills as her account can give her. She leaves the rest in the account. How many dollars remain in the account?",4,1,"Emma's bank account has $100 in it. Each day of the week, she spends $8. 
+
+First, we need to find out how much she spends in a week. There are 7 days in a week, so she spends 7 * 8 = 56 dollars.
+
+Now, we need to subtract the amount she spent from her initial account balance. 
+100 - 56 = 44
+
+Emma leaves the rest in the account. She wants to get as many $5 bills as her account can give her. To find out how many $5 bills she can get, we need to divide the remaining amount by 5.
+44 / 5 = 8 with a remainder of 4.
+
+Since she can get 8 $5 bills, we multiply 8 by 5 to find out the total amount she gets.
+8 * 5 = 40
+
+Now, we need to subtract the amount she got from her remaining balance to find out how much she has left.
+44 - 40 = 4
+
+#### 4"
+5,"Ezekiel hikes as a hobby. This past summer, he did a challenging three-day hike across 50 kilometers of wilderness. The first day, he covered 10 kilometers of steep mountainside. The second day was flatter and he was able to cover half the full hike distance. How many kilometers did he have to hike on the third day to finish the hike?",15,1,"To find out how many kilometers Ezekiel had to hike on the third day, we need to calculate the distance he covered on the first and second days.
+
+The first day, he covered 10 kilometers.
+
+The second day, he covered half the full hike distance, which is 50 / 2 = 25 kilometers.
+
+So, the total distance he covered on the first and second days is 10 + 25 = 35 kilometers.
+
+Since the total hike distance is 50 kilometers, the distance he had to hike on the third day is 50 - 35 = 15 kilometers.
+
+#### 15"

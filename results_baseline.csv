@@ -1,0 +1,66 @@
+idx,question,gt_answer,correct,raw_output
+1,Mimi picked up 2 dozen seashells on the beach.  Kyle found twice as many shells as Mimi and put them in his pocket. Leigh grabbed one-third of the shells that Kyle found.  How many seashells did Leigh have?,16,1,"To find the number of seashells Leigh had, we need to follow the steps:
+
+1. Mimi picked up 2 dozen seashells. Since 1 dozen is 12, Mimi picked up 2 * 12 = 24 seashells.
+2. Kyle found twice as many shells as Mimi, so Kyle found 2 * 24 = 48 seashells.
+3. Leigh grabbed one-third of the shells that Kyle found. One-third of 48 is 48 / 3 = 16.
+
+#### 16"
+2,Frankie's parents let him have many pets. He has six more snakes than he has cats. He has one less parrot than cats. Six of his pets have four legs. He has 2 dogs. How many pets does he have in total?,19,0,"Let's break down the problem. 
+
+We know Frankie has 2 dogs. Since 6 of his pets have 4 legs, the remaining 2 pets with 4 legs must be cats. This is because dogs also have 4 legs. So, Frankie has 2 cats.
+
+We are also given that Frankie has one less parrot than cats. Since he has 2 cats, he must have 1 parrot.
+
+Frankie has six more snakes than he has cats. Since he has 2 cats, he must have 2 + 6 = 8 snakes.
+
+Now, let's add up all the pets: 2 dogs + 2 cats + 1 parrot + 8 snakes = 13 pets.
+
+#### 13"
+3,"Olaf collects colorful toy cars. At first, his collection consisted of 150 cars. His family, knowing his hobby, decided to give him some toy cars. Grandpa gave Olaf twice as many toy cars as the uncle. Dad gave Olaf 10 toy cars, 5 less than Mum. Auntie gave Olaf 6 toy cars, 1 more than the uncle. How many toy cars does Olaf have in total, after receiving all these gifts?",196,1,"Let's break down the problem:
+
+Olaf initially has 150 cars.
+
+Grandpa gave Olaf twice as many toy cars as the uncle. Let's call the number of cars the uncle gave 'x'. Then, Grandpa gave 2x cars.
+
+Auntie gave Olaf 6 toy cars, which is 1 more than the uncle. So, the uncle gave 6 - 1 = 5 cars.
+
+Since the uncle gave 5 cars, Grandpa gave 2 * 5 = 10 cars.
+
+Dad gave Olaf 10 toy cars, 5 less than Mum. So, Mum gave 10 + 5 = 15 cars.
+
+Now, let's add up all the cars Olaf received:
+
+- Uncle gave 5 cars
+- Auntie gave 6 cars
+- Grandpa gave 10 cars
+- Dad gave 10 cars
+- Mum gave 15 cars
+
+Total cars received = 5 + 6 + 10 + 10 + 15 = 46
+
+Olaf initially had 150 cars. After receiving 46 more cars, he now has:
+
+150 + 46 = 196
+
+#### 196"
+4,"Emma's bank account has $100 in it. Each day of the week, she spends $8. At the end of the week, she goes to the bank and asks for as many $5 bills as her account can give her. She leaves the rest in the account. How many dollars remain in the account?",4,1,"Emma spends $8 each day for 7 days, so she spends a total of 8 * 7 = 56 dollars. 
+
+She had 100 dollars initially, so she has 100 - 56 = 44 dollars left.
+
+She wants to get as many $5 bills as possible, so she will get 44 / 5 = 8 with a remainder of 4.
+
+She will take out 8 * 5 = 40 dollars in $5 bills, leaving 44 - 40 = 4 dollars in her account.
+
+#### 4"
+5,"Ezekiel hikes as a hobby. This past summer, he did a challenging three-day hike across 50 kilometers of wilderness. The first day, he covered 10 kilometers of steep mountainside. The second day was flatter and he was able to cover half the full hike distance. How many kilometers did he have to hike on the third day to finish the hike?",15,1,"To find out how many kilometers Ezekiel had to hike on the third day, we need to calculate the distance he covered on the first two days.
+
+On the first day, he covered 10 kilometers.
+
+On the second day, he covered half of the full hike distance, which is 50 / 2 = 25 kilometers.
+
+So, the total distance he covered on the first two days is 10 + 25 = 35 kilometers.
+
+Since the full hike distance is 50 kilometers, Ezekiel had to hike 50 - 35 = 15 kilometers on the third day.
+
+#### 15"

@@ -1,0 +1,6 @@
+prompt_type,accuracy
+self_consistency,1.0
+automated_best_full,0.8933333333333333
+baseline,0.8
+few_shot,0.8
+manual_improved,0.6
