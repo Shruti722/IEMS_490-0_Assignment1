@@ -1,0 +1,9 @@
+openai
+datasets
+pandas
+numpy
+tqdm
+python-dotenv
+jupyter
+ipykernel
+papermill
